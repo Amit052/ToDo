@@ -1,9 +1,9 @@
 body,html{
     background: lightblue;
     height: 100%;
+	background-image: url('../bg.jpg');
 }
 .board{
-    background: lightblue;
     padding: 1em;
     min-height: 650px;
 }
@@ -17,7 +17,8 @@ body,html{
 -ms-user-select: none;
 user-select: none;
     margin-bottom: .5em;
-    border: 1px solid grey;
+    border: 1.5em solid lightgrey;
+	border-radius: 1em;
 }
 .img2d{ 
     padding: 1.5em;
@@ -37,8 +38,16 @@ user-select: none;
     background:blue;
 }
 
-h1,img {
+img {
     display: inline-block;
+}
+h1
+{
+border-radius:.5em;
+background: wheat;
+padding:.2em;
+text-align: center;
+text-transform: uppercase;
 }
 
 .glyphicon {
@@ -68,6 +77,7 @@ h1,img {
     border-radius: 10px;
      display: none;
     max-height: 90%;
+	border: 1em solid lightblue;
 }
 .f_upload{
     border: .5px solid black;
